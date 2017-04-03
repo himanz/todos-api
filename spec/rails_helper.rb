@@ -64,7 +64,7 @@ RSpec.configure do |config|
     end
   end
 
-  Rspec.configuration do |config|
+  RSpec.configuration do |config|
     config.include FactoryGirl::Syntax::Methods
 
     config.before(:suite) do
