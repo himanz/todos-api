@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe TodosController, type: :controller do
-  before_action :set_todo, only [:show, :update, :destroy]
+  before_action :set_todo, only: [:show, :update, :destroy]
 
   # GET /todos
   def index
